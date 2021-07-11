@@ -24,7 +24,3 @@ test {
 nebulaRelease {
 	addReleaseBranchPattern(/(release(-|\/))?\d+(\.\d+)?(\.\d+)?/)
 }
-
-printVersion() {
-	out.println(project.version)
-}
